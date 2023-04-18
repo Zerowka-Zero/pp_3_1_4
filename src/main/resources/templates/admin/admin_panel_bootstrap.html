@@ -308,6 +308,9 @@ maximum‐scale=1.0, user‐scalable=no">
                             <div class="tab-pane" id="tab-new-user" role="tabpanel" aria-labelledby="new-user">
                                 <div class="card">
                                     <div class="modal-body">
+                                        <div class="card-header">
+                                            <span class="modal-title fs-5">Add new user</span>
+                                        </div>
                                         <form id="formAddUser py-3" th:method="POST"
                                               th:action="@{/registration}"
                                               th:object="${new_user}">
